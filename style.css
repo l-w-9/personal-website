@@ -9,7 +9,7 @@ body {
 }
 
 .header {
-
+	color: blue;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
 }
 
 .strapline {
@@ -21,7 +21,8 @@ body {
 }
 
 .aboutme {
-  margin-bottom: 2rem;
+  background-color: gray;
+  margin-bottom: 2rem                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        ;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
 }
 
 .skills {
