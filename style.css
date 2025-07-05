@@ -33,6 +33,8 @@ body {
 }
 
 .linkedin {
+  border-style: solid;
+  border-color: blue;
   margin-bottom: 1rem;
 }
 
