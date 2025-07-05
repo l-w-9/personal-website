@@ -9,11 +9,11 @@ body {
 }
 
 .header {
-	color: blue;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
 }
 
 .strapline {
-
+  color: blue; 
 }
 
 .profilepic {
@@ -30,9 +30,14 @@ body {
 }
 
 .linkedin {
+  border-style: solid;
+  border-color: blue;
+  padding: 1rem;
   margin-bottom: 1rem;
 }
 
 .contactform {
-  
+  border-style: solid;
+  border-color: blue;
+  padding: 1rem;
 }
