@@ -8,18 +8,6 @@ body {
   background-color: black;
 }
 
-a:visited {
-  color: tomato;
-}
-
-table, th, td {
-  border: 2px solid black;
-  border-collapse: collapse;
-  text-align: left;
-  padding: 1rem;
-  line-height: 1.5;
-}
-
 .header {
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
 }
@@ -43,6 +31,19 @@ table, th, td {
   margin-bottom: 2rem;
 }
 
+caption {
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+table, th, td {
+  border: 2px solid black;
+  border-collapse: collapse;
+  text-align: center;
+  padding: 1rem;
+  line-height: 1.5;
+}
+
 .linkedin {
   border-style: solid;
   border-color: blue;
@@ -55,4 +56,9 @@ table, th, td {
   border-style: solid;
   border-color: blue;
   padding: 0.5rem;
+}
+
+
+a:visited {
+  color: tomato;
 }
