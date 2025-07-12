@@ -8,8 +8,12 @@ body {
   background-color: black;
 }
 
-a:visited {
-  color: tomato;
+a.linkedin:visited {
+  border-color: tomato;
+}
+
+a.contactform:visited {
+  border-color: tomato;
 }
 
 table, th, td {
