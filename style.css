@@ -9,7 +9,7 @@ body {
 }
 
 .header {
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
+  text-transform: uppercase;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
 }
 
 .strapline {
@@ -33,15 +33,15 @@ body {
 
 caption {
   font-weight: bold;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
 }
 
 table, th, td {
   border: 2px solid black;
   border-collapse: collapse;
   text-align: center;
-  padding: 1rem;
-  line-height: 1.5;
+  padding: 0.5rem;
+  line-height: 2;
 }
 
 .linkedin {
@@ -58,7 +58,6 @@ table, th, td {
   padding: 0.5rem;
 }
 
-
 a:visited {
-  color: tomato;
+  color: blue;
 }
