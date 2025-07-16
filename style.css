@@ -9,11 +9,12 @@ body {
 }
 
 .btn {
-  box-sizing: border-box;
-  width: 200px;
-  padding: 0.5rem;
-  border: 2px solid blue;
   display: inline-block;
+  margin-bottom: 2rem;
+  border: 2px solid blue;
+  box-sizing: border-box;
+  padding: 0.5rem;
+  width: 200px;
   text-align: center;
 }
 
