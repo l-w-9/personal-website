@@ -5,7 +5,7 @@ body {
   font-size: 1rem;
   line-height: 1.5;
   color: white;
-  background-color: rgba(0, 0, 0, 0.75);
+  background-color: black;
 }
 
 .header {
@@ -49,6 +49,7 @@ table, th, td {
   border-style: solid;
   border-color: blue;
   padding: 0.5rem;
+  width: 200px;
 }
 
 .linkedin {
@@ -56,6 +57,7 @@ table, th, td {
   border-style: solid;
   border-color: blue;
   padding: 0.5rem;
+  width: 200px;
 }
 
 .github {
@@ -63,6 +65,7 @@ table, th, td {
   border-color: blue;
   padding: 0.5rem;
   margin-bottom: 2rem;
+  width: 200px;
 }
 
 a:visited {
