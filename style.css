@@ -21,7 +21,9 @@ a:visited {
   color: blue;
 }
 
-table, th, td {
+table,
+th,
+td {
   border: 2px solid black;
   border-collapse: collapse;
   text-align: center;
@@ -30,19 +32,18 @@ table, th, td {
 }
 
 .header {
-  text-transform: uppercase;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
+  text-transform: uppercase;
 }
 
 .strapline {
-  color: blue; 
+  color: blue;
 }
 
 .profilepic {
-
 }
 
 .aboutme {
-  margin-bottom: 2rem;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
+  margin-bottom: 2rem;
 }
 
 .skills {
@@ -55,31 +56,4 @@ table, th, td {
 caption {
   font-weight: bold;
   margin-bottom: 0.5rem;
-}
-
-.contactform {
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-  border-style: solid;
-  border-color: blue;
-  padding: 0.5rem;
-  width: 200px;
-}
-
-.linkedin {
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-  border-style: solid;
-  border-color: blue;
-  padding: 0.5rem;
-  width: 200px;
-}
-
-.github {
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-  border-style: solid;
-  border-color: blue;
-  padding: 0.5rem;
-  width: 200px;
 }
