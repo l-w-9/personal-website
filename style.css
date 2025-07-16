@@ -9,12 +9,17 @@ body {
 }
 
 .btn {
-  margin: 2rem 0;
-  border: 2px solid blue;
-  padding: 0.5rem;
+  box-sizing: border-box;
   width: 200px;
+  padding: 0.5rem;
+  border: 2px solid blue;
   display: inline-block;
   text-align: center;
+}
+
+.btn img {
+  max-width: 100%;
+  height: auto;
 }
 
 a:visited {
