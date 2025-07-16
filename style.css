@@ -20,7 +20,7 @@ body {
 
 .btn img {
   max-width: 100%;
-  height: auto;
+  height: 400px;
 }
 
 a:visited {
@@ -46,6 +46,7 @@ td {
 }
 
 .profilepic {
+  
 }
 
 .aboutme {
