@@ -70,3 +70,30 @@ td {
   background-color: gray;
   padding: 0.5rem;
 }
+
+/* 1. Define the slide-up keyframes */
+@keyframes slideUp {
+  from {
+    transform: translateY(30px);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+/* 2. Prepare elements with initial transform and attach animation */
+header,
+.profilepic,
+.aboutme,
+.skills,
+.btn {
+  transform: translateY(30px);       /* start 30px down */
+  animation: slideUp 0.6s ease-out forwards;
+}
+
+/* 3. Stagger the entrance */
+header       { animation-delay: 0.2s; }
+.profilepic  { animation-delay: 0.4s; }
+.aboutme     { animation-delay: 0.6s; }
+.skills      { animation-delay: 0.8s; }
+.btn         { animation-delay: 1s; }
