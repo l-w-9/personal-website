@@ -9,14 +9,15 @@ body {
 }
 
 .btn {
-  display: inline-block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin-bottom: 2rem;
   border: 2px solid blue;
   box-sizing: border-box;
   padding: 0.5rem;
   width: 200px;
   height: 140px;
-  line-height: 140px;
   text-align: center;
   text-wrap: none;
   font-size: 28px
