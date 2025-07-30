@@ -6,7 +6,41 @@ body {
   line-height: 1.5;
   color: white;
   background-color: black;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2rem;
+  border: 2px solid blue;
+  box-sizing: border-box;
+  padding: 0.5rem;
+  width: 200px;
+  height: 140px;
   text-align: center;
+  font-size: 28px
+}
+
+.btn img {
+  max-width: 100%;
+  height: 100px;
+}
+
+a:visited {
+  color: blue;
+}
+
+table,
+th,
+td {
+  border: 2px solid black;
+  border-collapse: collapse;
+  padding: 0.5rem;
+  text-align: center;
+  vertical-align: top;
+  white-space: nowrap;
+  line-height: 2;
 }
 
 .header {
@@ -30,65 +64,9 @@ body {
   font-weight: bold;
 }
 
-/* Skills table */
-table,
-th,
-td {
-  border: 2px solid black;
-  border-collapse: collapse;
-  padding: 0.5rem;
-  text-align: center;
-  vertical-align: top;
-  white-space: nowrap;
-  line-height: 2;
-}
-
 .skills {
   display: inline-block;
   margin-bottom: 2rem;
   background-color: gray;
   padding: 0.5rem;
-}
-
-/* Buttons */
-.btn {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 2rem;
-  border: 2px solid blue;
-  box-sizing: border-box;
-  padding: 0.5rem;
-  width: 200px;
-  height: 140px;
-  text-align: center;
-  font-size: 28px;
-}
-
-.btn img {
-  max-width: 100%;
-  height: 100px;
-}
-
-a:visited {
-  color: blue;
-}
-
-/* Horizontal layout for 3 buttons */
-body > main > section:nth-of-type(5),
-body > main > section:nth-of-type(6),
-body > main > section:nth-of-type(7) {
-  display: inline-block;
-  vertical-align: top;
-  margin: 0 1rem;
-}
-
-/* Responsive adjustments for small screens */
-@media (max-width: 600px) {
-  body > main > section:nth-of-type(5),
-  body > main > section:nth-of-type(6),
-  body > main > section:nth-of-type(7) {
-    display: block;
-    margin: 1rem auto;
-  }
 }
